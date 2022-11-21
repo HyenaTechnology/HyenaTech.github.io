@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Hyena Technologies </title>
+    <header>
+        
+        <div class="navbar"> 
+            <a href="index.html" class="CONTACTS"> Contacts </a>
+            <a href="index.html" class="GAMES"> Games </a>
+            <a href="index.html" class="ABOUT"> About </a>
+            <a href="index.html" class="HOME"> Home </a>
+            <div class="uadbtn">
+            <button class="UpArrow"> ↑ </button>
+            <button class="DownArrow"> ↓ </button>
+            </div>
+            <input type="text" placeholder="Search games..">
+            <img src="search.png" alt="search" class="searchicon">
+            <h1 style="padding-left: 155px; font-weight: bolder;"> Hyena Technologies </h1>
+        </div>
+    </header>
+</head>
+<body>
+    <style>
+        header {
+            background: white;
+            box-shadow: 0px 10px 10px black;
+        }
+        header::after {
+            content: '';
+            display: table;
+            clear: both;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            padding-right: 20px;
+        }
+        header a {
+            padding-top: 10px;
+            float: right;
+            font-weight: bolder;
+            font-size: large;
+            padding-right: 15px;
+            color: black;
+            text-decoration: none;
+            transition: ease-in;
+            transition-duration: 0.07s;
+        }
+        header a:hover {
+            rotate: 5deg;
+        }
+        .UpArrow {
+            border: 2px solid black;
+            width: 70px;
+            height: 40px;
+            float: right;
+            font-size: 30px;
+            font-weight: bolder;
+            background-color: transparent;
+            margin-right: 55px;
+            transition: ease-in;
+            transition-duration: 0.07s;
+        }
+        .DownArrow {
+            border: 2px solid black;
+            width: 70px;
+            height: 40px;
+            float: right;
+            font-size: 30px;
+            font-weight: bolder;
+            background-color: transparent;
+            margin-right: 15px;
+            transition: ease-in;
+            transition-duration: 0.07s;
+        }
+        .DownArrow:hover {
+            color: white;
+            background-color: black;
+            cursor: pointer;
+        }
+        .UpArrow:hover {
+            color: white;
+            background-color: black;
+            cursor: pointer;
+        }
+        .navbar input[type=text] {
+            float: right;
+            border: 2px solid black;
+            font-weight: bolder;
+            width: 370px;
+            height: 20px;
+            margin-top: 6px;
+            margin-right: 25px;
+            padding-left: 26px;
+        }
+        .searchicon {
+            float: right;
+            font-weight: bolder;
+            width: 18px;
+            height: 16px;
+            margin-top: 6px;
+            position: relative;
+            left: 23px;
+            top: 5px;
+            padding-left: 30px;
+        }
+        .navbar input[type=text]:focus {
+            border-radius: 0px;
+            outline: none;
+        }
+    </style>
+</body>
+</html>
